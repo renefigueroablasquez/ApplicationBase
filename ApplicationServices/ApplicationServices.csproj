@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="Services\BaseService\" />
+    <None Remove="Services\BaseService\Dto\" />
+    <None Remove="Services\BaseService\Contract\" />
+    <None Remove="Services\Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\BaseService\" />
+    <Folder Include="Services\BaseService\Dto\" />
+    <Folder Include="Services\BaseService\Contract\" />
+    <Folder Include="Services\Data\" />
+  </ItemGroup>
+</Project>
